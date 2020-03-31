@@ -1,6 +1,29 @@
 # CHANGELOG
 
+# v0.8.0
+
+- upgrade upstream nem2-sdk@v0.17.0
+- dropped KECCAK/SHA3 key derivation for SHA512
+- added compatibility with SLIP-10 key derivation
+- dropped SHA3/KECCAK derivation dependent on Network sign schema
+- dropped usage of SignSchema
+- dropped class CatapultECC in favor of `tweetnacl`
+
+# v0.7.0
+
+- upgraded upstream nem2-sdk@v0.16.0
+
+# v0.6.1
+
+- added embedme examples embedded in readme
+- upgraded upstream nem2-sdk@v0.15.0
+
+# v0.6.0
+
+- updated dependency tree
+
 ## v0.5.5
+
 - fixed readme samples
 
 ## v0.5.4
